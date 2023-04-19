@@ -1,0 +1,89 @@
+.temp {
+	margin: 0 auto;
+	max-width: 768px;
+	width: 100%;
+	padding: 16px 15px 0 15px;
+	position: sticky;
+	top: 0;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	z-index: 20;
+	left: 50%;
+	background: #f1f1f1;
+	box-shadow: 2px 2px 4px rgba(212, 212, 212, 0.3);
+}
+
+.scrollmenu {
+	overflow-x: scroll;
+	white-space: nowrap;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.scrollmenu::-webkit-scrollbar {
+	display: none;
+}
+
+.scrollmenu a {
+	display: inline-block;
+	color: #4a5662;
+	opacity: 0.4;
+	text-align: center;
+	padding: 1% 9%;
+	text-decoration: none solid rgb(60, 188, 180);
+}
+.scrollmenu a:active {
+	color: #3cbcb4;
+	text-decoration: none solid rgb(60, 188, 180);
+}
+
+.btn_pep {
+	background: #f1f1f1 url("/src/img/network.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding: 20px;
+	border-radius: 7px;
+	background-size: 12px;
+	background-position: center;
+	border: none;
+	margin-bottom: 10px;
+	box-shadow: 3px 3px 6px #0000001a;
+}
+
+.btn_pep:focus {
+	border: none;
+}
+
+.btn_hash {
+	background: #f1f1f1 url("/src/img/hastag.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding: 20px;
+	border-radius: 7px;
+	background-size: 12px;
+	background-position: center;
+	border: none;
+	margin-bottom: 10px;
+	box-shadow: 3px 3px 6px #0000001a;
+}
+
+.btn_hash:focus {
+	border: none;
+}
+
+.current{
+	color: #3cbcb4;
+	font-weight: bold;
+}
+
+/* .head_link::before{
+	border-bottom: 2px solid green;
+}
+
+.head_link::hover::before{
+	border-bottom: 2px solid lightblue;
+}
+
+.head_link::after {
+    border-bottom: 2px solid red;
+} */

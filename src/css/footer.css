@@ -1,0 +1,54 @@
+.row_flex{
+    position: fixed;
+    padding: 10px;
+    width: 768px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: #f1f1f1;
+	box-shadow: 2px 2px 4px rgba(212, 212, 212, 0.3);
+}
+
+.thunder_btn{
+    background: #f1f1f1 url("/src/img/thunder.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding: 20px;
+	border-radius: 7px;
+	background-size: 22px;
+	background-position: center;
+	border: none;
+    box-shadow: 3px 3px 6px #0000001a;
+}
+
+.cart_btn{
+    background: #f1f1f1 url("/src/img/cart.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding: 20px;
+	border-radius: 7px;
+	background-size: 22px;
+	background-position: center;
+	border: none;
+    box-shadow: 3px 3px 6px #0000001a;
+}
+
+.bookmark_btn{
+    background: #f1f1f1 url("/src/img/bookmark.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding: 20px;
+	border-radius: 7px;
+	background-size: 22px;
+	background-position: center;
+	border: none;
+    box-shadow: inset 3px 3px 6px #0000001a;
+}
+
+@media(max-width:991px){
+	.row_flex{
+		width: 100%;
+		justify-content: space-around;
+	}
+}
