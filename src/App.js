@@ -7,7 +7,7 @@ import Desserts from "./component/Desserts";
 import Beverages from "./component/Beverages";
 import Food from "./component/Food";
 import Cart from "./component/Cart";
-import items from "./component/items";
+import items from "./component/Items";
 import Store from "./component/Store";
 
 
