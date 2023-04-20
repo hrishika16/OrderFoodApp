@@ -7,14 +7,14 @@ import Desserts from "./component/Desserts";
 import Beverages from "./component/Beverages";
 import Food from "./component/Food";
 import Cart from "./component/Cart";
-import items from "./component/Items";
+import Items from "./component/Items";
 import Store from "./component/Store";
 
 
 function App() {
 	const [cartItems, setcartItems] = useState([]);
   // const [prevItems, setPrevItems] = useState([]);
-	const { products } = items;
+	const { products } = Items;
   const  prevItemsRef = useRef();
 
   // useEffect(()=>{
