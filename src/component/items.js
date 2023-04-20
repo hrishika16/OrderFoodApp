@@ -2,7 +2,7 @@ import food1 from '../img/food6.jpg';
 import food2 from '../img/food2.jpg';
 import food3 from '../img/food7.jpg';
 
-const items ={
+const Items ={
     products :[
     {
         id : 1,
@@ -30,4 +30,4 @@ const items ={
     }
 ]}
 
-export default items;
+export default Items;
